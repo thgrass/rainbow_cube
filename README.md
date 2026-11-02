@@ -89,7 +89,7 @@ group, e.g. `sudo usermod -aG dialout $USER` (re-login afterwards).
   store animations as JSON (see `examples/`). Scenes (single frames)
   can be saved/loaded from the *Scene* box.
 
-## 4. Serial protocol v2 (host ↔ device)
+## 4. Serial protocol (host ↔ device)
 
 Default 19200 baud, 8N1, binary. Every command is
 `<cmd> <payload...> <checksum>` where `checksum = XOR(cmd, payload...)`.
