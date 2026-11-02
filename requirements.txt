@@ -1,0 +1,4 @@
+pyserial>=3.5
+PyQt5>=5.15
+# PyQt6 also works (the app auto-detects); install one of the two:
+# PyQt6>=6.4
